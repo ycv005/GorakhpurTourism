@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Popular Sites to Visit"
+        android:background="#7BABED"
+        android:id="@+id/text_popular_sites"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Places for Fun"
+        android:background="#FCEBBF"
+        android:id="@+id/text_place_fun"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Hotel and Restaurants"
+        android:background="#F6C2D8"
+        android:id="@+id/text_hotel_restaurants"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Interesting Facts"
+        android:background="#a0efeb"
+        android:id="@+id/text_facts"/>
+
+</LinearLayout>

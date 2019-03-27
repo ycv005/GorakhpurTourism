@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.gorakhpurtourism.feature">
+
+    <application>
+        <activity android:name=".MainActivity">
+            <intent-filter android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="android.example.com"
+                    android:pathPattern="/.*"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PopularSite"
+            android:label="Popular Sites">
+            <intent-filter android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="android.example.com"
+                    android:pathPattern="/.*"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PlaceFun"
+            android:label="Place for Fun">
+            <intent-filter android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="android.example.com"
+                    android:pathPattern="/.*"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fact"
+            android:label="Interesting Fact">
+            <intent-filter android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="android.example.com"
+                    android:pathPattern="/.*"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HotelRestaurent"
+            android:label="Hotel and Restaurant">
+            <intent-filter android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="android.example.com"
+                    android:pathPattern="/.*"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

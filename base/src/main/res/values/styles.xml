@@ -1,0 +1,44 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--   color for the app bar and other primary UI elements -->
+        <item name="colorPrimary">#4A6572</item>
+
+        <!--   a darker variant of the primary color, used for
+               the status bar (on Android 5.0+) and contextual app bars -->
+        <item name="colorPrimaryDark">#232F34</item>
+
+        <!--   a secondary color for controls like checkboxes and text fields -->
+        <item name="colorAccent">#F9AA33</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">88dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NormalTextStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="HeadingTextStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="88dp"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/image_represent_location" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="88dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            style="@style/HeadingTextStyle"
+            android:layout_width="match_parent"
+            android:id="@+id/text_place_name"
+            android:layout_marginBottom="5dp"
+            tools:text="Name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/text_description"
+            style="@style/NormalTextStyle"
+            android:singleLine="false"
+            android:layout_marginBottom="5dp"
+            tools:text="Description"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="88dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_map"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Route" />
+
+    </LinearLayout>
+
+</LinearLayout>
